@@ -1,0 +1,31 @@
+{
+  "name": "joffre",
+  "version": "1.0.0",
+  "description": "Joffre is a Canadian card game.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --ignore-watch node_modules src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonasalessi/joffre.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonasalessi/joffre/issues"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.10",
+    "jest": "^26.4.2",
+    "ts-node": "^8.10.2",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.9.3"
+  },
+  "homepage": "https://github.com/jonasalessi/joffre#readme",
+  "dependencies": {
+    "@types/socket.io": "^2.1.11",
+    "socket.io": "^2.3.0"
+  }
+}
